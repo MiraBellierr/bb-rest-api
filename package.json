@@ -1,0 +1,19 @@
+{
+  "name": "bb-rest-api",
+  "version": "1.0.0",
+  "description": "BuzzyBuddies REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "author": "MiraBellierr",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.30.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "mongoose": "^7.0.4",
+    "morgan": "^1.10.0"
+  }
+}
